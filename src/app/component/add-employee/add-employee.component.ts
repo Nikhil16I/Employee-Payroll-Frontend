@@ -82,9 +82,6 @@ export class AddEmployeeComponent implements OnInit {
       }
     }
   
-    /**
-     * To read Salary value from slider
-     */
      onSubmit(){
       this.employee = this.employeeFormGroup.value;
       // console.log(this.employeeFormGroup);
